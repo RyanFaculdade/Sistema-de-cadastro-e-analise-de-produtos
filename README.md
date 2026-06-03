@@ -26,5 +26,10 @@ O projeto foi desenvolvido seguindo os critérios de:
 *   **Legibilidade:** Nomes de variáveis intuitivos e comentários relevantes.
 *   **Tratamento de Erros:** Robustez na entrada de dados numéricos.
 
+
+## Link para testar o código no Colab
+
+https://colab.research.google.com/drive/1VzQckzSGWl60TJYZQtW2V09C_Sl5-9Q_?usp=sharing
+
 ---
 *Este projeto faz parte de uma atividade acadêmica para prática de lógica de programação em Python.*
