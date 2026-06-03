@@ -81,7 +81,9 @@ def main():
 
     print('Relatorio final:')
 
-    print(f'Produtos cadastrados: {produtos}')
+    print('Produtos cadastrados:')
+    for nome, preco in produtos.items():
+        print(f'- {nome}: R$ {preco:.2f}')
 
     calcular_total(produtos)
     produto_mais_caro(produtos)
@@ -93,14 +95,14 @@ def main():
     print('[2] -> remover um produto')
     print('[0] -> para sair do programa')
 
-    escolha_usuario = int(input())
+    escolha_usuario = input()
 
     match escolha_usuario:
-        case 1:
+        case '1':
             procurar_produto(produtos)
-        case 2:
+        case '2':
             remover_produto(produtos)
-        case 0:
+        case 'e0':
             print('Ate logo')        
 
 if __name__ == "__main__":
